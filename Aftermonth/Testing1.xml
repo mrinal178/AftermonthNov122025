@@ -1,0 +1,9 @@
+<suite name="ModuleSuite" parallel="classes" thread-count="3">
+    <test name="ParallelClasses">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.SearchTest"/>
+            <class name="tests.CartTest"/>
+        </classes>
+    </test>
+</suite>
